@@ -44,5 +44,10 @@ export default {
 
   alias: {
     'img': resolve(__dirname, './assets/img')
+  },
+
+  loading: {
+    color: '#ffcc00',
+    height: '1px'
   }
 }

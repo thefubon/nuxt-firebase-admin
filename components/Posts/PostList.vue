@@ -1,27 +1,13 @@
 <template>
   <section class="post-list grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     <PostPreview
-      id="1"
+      v-for="post in posts"
+      :key="post.id"
+      :id="post.id"
       :is-admin="isAdmin"
-      thumbnail="https://fubon.uk/Maintenance.jpg"
-      title="Hello there!"
-      previewText="This my first post!"
-    />
-
-    <PostPreview
-      id="2"
-      :is-admin="isAdmin"
-      thumbnail="https://fubon.uk/Maintenance.jpg"
-      title="Hello there - the second time!"
-      previewText="This my second post!"
-    />
-
-      <PostPreview
-      id="3"
-      :is-admin="isAdmin"
-      thumbnail="https://fubon.uk/Maintenance.jpg"
-      title="Hi!"
-      previewText="This my third post!"
+      :thumbnail="post.thumbnail"
+      :title="post.title"
+      :previewText="post.previewText"
     />
   </section>
 </template>
@@ -36,6 +22,10 @@ export default {
     isAdmin: {
       type: Boolean,
       default: false
+    },
+    posts: {
+      type: Array,
+      required: true
     }
   }
 }
