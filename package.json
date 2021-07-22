@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
+    "axios": "^0.21.1",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
     "vue-clickaway": "^2.2.2"

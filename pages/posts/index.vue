@@ -10,25 +10,10 @@ export default {
   components: {
     PostList
   },
-  asyncData(context, callback) {
-    setTimeout(() => {
-      callback(null, {
-        loadedPosts: [
-          {
-            id: '1',
-            title: 'First Post',
-            previewText: 'This my first post!',
-            thumbnail: 'https://fubon.uk/Maintenance.jpg',
-          },
-          {
-            id: '2',
-            title: 'Second Post',
-            previewText: 'This my second post!',
-            thumbnail: 'https://fubon.uk/Maintenance.jpg',
-          }
-        ]
-      })
-    }, 500)
-  },
+  computed: {
+    loadedPosts() {
+      return this.$store.getters.loadedPosts
+    }
+  }
 }
 </script>
