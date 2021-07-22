@@ -13,8 +13,14 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap' }
+    ],
+    bodyAttrs: {
+      class: 'antialiased font-roboto'
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -40,6 +46,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    publicPath: 'assets' //https://cdn.nuxtjs.org
+  },
+
+  // The dist folder is named dist by default but can be configured
+  generate: {
+    dir: 'public'
   },
 
   alias: {
@@ -49,5 +61,16 @@ export default {
   loading: {
     color: '#ffcc00',
     height: '1px'
+  },
+
+  server: {
+    port: 3000, // default: 3000
+    // host: '0.0.0.0', // default: localhost,
+    timing: false
+  },
+
+  cli: {
+    badgeMessages: ['Заебись!'],
+    bannerColor: 'yellow'
   }
 }

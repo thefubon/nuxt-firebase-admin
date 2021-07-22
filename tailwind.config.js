@@ -2,6 +2,7 @@ module.exports = {
   mode: 'jit',
   purge: [
     './components/**/*.{vue,js}',
+    './lang/**/*.{js,json}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
@@ -12,7 +13,11 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
+      }
+    },
   },
   variants: {
     extend: {},
