@@ -46,7 +46,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: 'assets' //https://cdn.nuxtjs.org
+    publicPath: 'assets'
   },
 
   // The dist folder is named dist by default but can be configured
@@ -65,7 +65,7 @@ export default {
 
   server: {
     port: 3000, // default: 3000
-    // host: '0.0.0.0', // default: localhost,
+    host: 'localhost', // default: localhost,
     timing: false
   },
 

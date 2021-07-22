@@ -11,6 +11,7 @@
           <li class="nav-item"><NuxtLink to="/about">About</NuxtLink></li>
           <li class="nav-item"><NuxtLink to="/admin">Admin</NuxtLink></li>
           <li class="nav-item"><NuxtLink to="/admin/auth">Login</NuxtLink></li>
+          <li class="nav-item"><NuxtLink to="/users">Users</NuxtLink></li>
         </ul>
       </div>
     </header>
