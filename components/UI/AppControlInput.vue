@@ -2,15 +2,15 @@
   <div class="input-control container flex flex-col my-4">
     <label><slot /></label>
     <input
-    class="input border p-2 focus:outline-none w-full"
+    class="input border p-2 focus:outline-none w-full rounded"
       v-if="controlType === 'input'"
       v-bind="$attrs"
       :value="value"
       @input="$emit('input', $event.target.value)">
     <textarea
-      class="textarea border p-2 focus:outline-none w-full"
+      class="textarea border p-2 focus:outline-none w-full rounded"
       v-if="controlType === 'textarea'"
-      rows="10"
+      rows="3"
       :value="value"
       @input="$emit('input', $event.target.value)"></textarea>
   </div>

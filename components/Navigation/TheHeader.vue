@@ -10,6 +10,7 @@
           <li class="nav-item"><NuxtLink to="/posts">Posts</NuxtLink></li>
           <li class="nav-item"><NuxtLink to="/about">About</NuxtLink></li>
           <li class="nav-item"><NuxtLink to="/admin">Admin</NuxtLink></li>
+          <li class="nav-item"><NuxtLink to="/admin/auth">Login</NuxtLink></li>
         </ul>
       </div>
     </header>

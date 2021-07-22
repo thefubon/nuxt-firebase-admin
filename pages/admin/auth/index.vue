@@ -1,9 +1,9 @@
 <template>
-  <div class="admin-auth-page container w-[640px]">
+  <div class="admin-auth-page container w-[320px]">
     <div class="auth-container">
       <form>
-        <AppControlInput class="border p-2 focus:outline-none" type="email">E-mail Address</AppControlInput>
-        <AppControlInput class="border p-2 focus:outline-none" type="password">Password</AppControlInput>
+        <AppControlInput type="email">E-mail Address</AppControlInput>
+        <AppControlInput type="password">Password</AppControlInput>
         <AppButton type="submit">{{ isLogin ? 'Login' : 'Sign Up' }}</AppButton>
         <AppButton
           type="button"
