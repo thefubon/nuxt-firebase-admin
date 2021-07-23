@@ -3,8 +3,7 @@
 [DEMO PREVIEW](https://youtu.be/5-Kb_VbcG3Q)
 
 ## Warning (Only Version)
-  "node-sass": "^5.0.0",
-  
+  "node-sass": "^5.0.0",<br>
   "sass-loader": "^10.2.0",
 
 ## Build Setup
