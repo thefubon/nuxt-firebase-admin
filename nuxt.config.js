@@ -25,10 +25,14 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'vue-slick-carousel/dist/vue-slick-carousel.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~plugins/vue-slick-carousel.js', // https://github.com/gs-shop/vue-slick-carousel
+    '~plugins/vue-scrollactive.js', // https://github.com/eddiemf/vue-scrollactive
+    // '~plugins/vue-clickaway.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -42,7 +46,24 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    locales: [
+      {
+        code: 'ru',
+        file: 'ru.js'
+      },
+      {
+        code: 'en',
+        file: 'en.js'
+      },
+    ],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'ru'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

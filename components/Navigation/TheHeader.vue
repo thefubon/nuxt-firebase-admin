@@ -7,23 +7,34 @@
       </div>
       <div class="navigation-items">
         <ul class="nav-list flex items-center space-x-4">
-          <li class="nav-item"><NuxtLink to="/posts">Posts</NuxtLink></li>
-          <li class="nav-item"><NuxtLink to="/about">About</NuxtLink></li>
-          <li class="nav-item"><NuxtLink to="/admin">Admin</NuxtLink></li>
-          <li class="nav-item"><NuxtLink to="/admin/auth">Login</NuxtLink></li>
-          <li class="nav-item"><NuxtLink to="/users">Users</NuxtLink></li>
+            <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/')" exact v-text="$t('nav.home')"></NuxtLink></li>
+            <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/landing')" v-text="$t('nav.landing')"></NuxtLink></li>
+            <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/posts')" v-text="$t('nav.posts')"></NuxtLink></li>
+            <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/about')" v-text="$t('nav.about')"></NuxtLink></li>
+            <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/admin')" v-text="$t('nav.admin')"></NuxtLink></li>
+            <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/admin/auth')" v-text="$t('nav.auth')"></NuxtLink></li>
+          <li class="nav-item"> <NuxtLink class="" active-class="active" :to="localePath('/users')" v-text="$t('nav.users')"></NuxtLink></li>
         </ul>
       </div>
+      <div class="ml-6"><LanguageSwitch /></div>
     </header>
   </div>
 </template>
 
 <script>
 import TheSideNavToggle from '~/components/Navigation/TheSideNavToggle'
+import LanguageSwitch from '~/components/Navigation/LanguageSwitch'
 export default {
   name: "TheHeader",
   components: {
-    TheSideNavToggle
+    TheSideNavToggle,
+    LanguageSwitch
   }
 }
 </script>
+
+<style scoped>
+  .active {
+    @apply py-1 px-2 bg-gray-100 text-black rounded;
+  }
+</style>

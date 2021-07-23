@@ -1,5 +1,6 @@
 <template>
   <div>
+    <TheSize />
     <TheHeader @sidenavToggle="displaySidenav = !displaySidenav" />
     <TheSidenav :show="displaySidenav" @close="displaySidenav = false" />
     <Nuxt />
