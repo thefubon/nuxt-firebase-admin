@@ -4,6 +4,7 @@
 
 ## Warning (Only Version)
   "node-sass": "^5.0.0",
+  
   "sass-loader": "^10.2.0",
 
 ## Build Setup
