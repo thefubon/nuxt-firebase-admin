@@ -4,6 +4,7 @@
       <TheSideNavToggle class="mr-4" @toggle="$emit('sidenavToggle')" />
       <div class="logo flex-1">
         <NuxtLink class="font-bold" to="/">Nuxt</NuxtLink>
+        <a class="ml-6" href="https://github.com/thefubon/nuxt" target="_blank">GinHub</a>
       </div>
       <div class="navigation-items">
         <ul class="nav-list flex items-center space-x-4">
