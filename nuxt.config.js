@@ -51,7 +51,11 @@ export default {
 
   // The dist folder is named dist by default but can be configured
   generate: {
-    dir: 'public'
+    dir: 'dist',
+    exclude: [
+      /^\/admin/, // path starts with /admin
+      /^\/users/, // path starts with /users
+    ]
   },
 
   alias: {
