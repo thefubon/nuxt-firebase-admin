@@ -1,5 +1,7 @@
 # nuxt
 
+[DEMO PREVIW](https://youtu.be/5-Kb_VbcG3Q)
+
 ## Build Setup
 
 ```bash
