@@ -16,7 +16,6 @@ export default {
   */
   nav: {
     home: 'Главная',
-    landing: 'Лендинг',
     posts: 'Новости',
     about: 'О нас',
     admin: 'Админ',

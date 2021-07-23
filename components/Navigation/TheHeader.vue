@@ -1,15 +1,13 @@
 <template>
-  <div class="header-container bg-gray-600 text-white p-4 mb-4">
-    <header class="the-header flex items-center">
+  <div class="header-container bg-gray-600 text-white h-14 mb-4 flex items-center">
+    <header class="the-header container flex items-center">
       <TheSideNavToggle class="mr-4" @toggle="$emit('sidenavToggle')" />
       <div class="logo flex-1">
-        <NuxtLink class="font-bold" to="/">Nuxt</NuxtLink>
-        <a class="ml-6" href="https://github.com/thefubon/nuxt" target="_blank">GinHub</a>
+        <a href="https://github.com/thefubon/nuxt" target="_blank">GinHub</a>
       </div>
       <div class="navigation-items">
         <ul class="nav-list flex items-center space-x-4">
             <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/')" exact v-text="$t('nav.home')"></NuxtLink></li>
-            <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/landing')" v-text="$t('nav.landing')"></NuxtLink></li>
             <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/posts')" v-text="$t('nav.posts')"></NuxtLink></li>
             <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/about')" v-text="$t('nav.about')"></NuxtLink></li>
             <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/admin')" v-text="$t('nav.admin')"></NuxtLink></li>

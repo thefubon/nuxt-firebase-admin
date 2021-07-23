@@ -16,7 +16,6 @@ export default {
   */
   nav: {
     home: 'Home',
-    landing: 'Landing',
     posts: 'Posts',
     about: 'About Us',
     admin: 'Admin',
