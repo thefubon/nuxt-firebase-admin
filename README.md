@@ -1,6 +1,6 @@
-# nuxt
+# Nuxt 2 + Tailwind CSS
 
-[DEMO PREVIW](https://youtu.be/5-Kb_VbcG3Q)
+[DEMO PREVIEW](https://youtu.be/5-Kb_VbcG3Q)
 
 ## Build Setup
 
