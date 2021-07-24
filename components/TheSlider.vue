@@ -71,7 +71,7 @@
           dotsClass: 'slick-dots flex justify-center space-x-2 text-center absolute bottom-2 md:bottom-4 inset-x-0',
           arrows: false,
           infinite: true,
-          autoplay: false,
+          autoplay: true,
           autoplaySpeed: 10000,
           speed: 1000,
           slidesToShow: 1,
