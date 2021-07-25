@@ -18,6 +18,9 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap' }
     ],
+    script: [
+      { src: '/js/nav.js', type: 'text/javascript', body: true, }
+    ],
     bodyAttrs: {
       class: 'antialiased font-roboto'
     }
@@ -80,7 +83,8 @@ export default {
   },
 
   alias: {
-    'img': resolve(__dirname, './assets/img')
+    'img': resolve(__dirname, './assets/img'),
+    'js': resolve(__dirname, './assets/js')
   },
 
   loading: {

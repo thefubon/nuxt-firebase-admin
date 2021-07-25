@@ -1,7 +1,7 @@
 <template>
   <div class="home-page container">
     <h2 class="py-6 text-2xl font-bold">horizontal Scroll Menu</h2>
-    <div class="flex sticky top-0 bg-white z-10">
+    <div class="flex sticky top-0 bg-white">
       <scrollactive class="container flex justify-center items-center h-12" active-class="scrollactive" :modifyUrl="false" :offset="60" :duration="800" bezier-easing-value=".5,0,.35,1">
         <div class="overflow-y-auto whitespace-nowrap scroll-hidden uppercase font-medium text-sm leading-6 space-x-6">
         <a class="scrollactive-item" href="#scrollId">Scroll menu</a>
