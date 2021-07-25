@@ -1,6 +1,6 @@
 <template>
   <div class="header-container bg-gray-600 text-white h-14 mb-4 flex items-center">
-    <header class="the-header container flex items-center">
+    <nav class="the-header container flex items-center">
       <div class="logo flex-1">
         <a href="https://github.com/thefubon/nuxt" target="_blank">GinHub</a>
       </div>
@@ -15,7 +15,7 @@
         </ul>
       </div>
       <div class="ml-6"><LanguageSwitch /></div>
-    </header>
+    </nav>
   </div>
 </template>
 
