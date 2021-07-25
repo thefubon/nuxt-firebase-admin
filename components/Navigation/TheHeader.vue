@@ -5,7 +5,7 @@
         <a href="https://github.com/thefubon/nuxt" target="_blank">GinHub</a>
       </div>
       <div class="navigation-items">
-        <ul class="nav-list flex items-center space-x-4">
+        <ul class="nav-list hidden md:flex items-center space-x-4">
             <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/')" exact v-text="$t('nav.home')"></NuxtLink></li>
             <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/posts')" v-text="$t('nav.posts')"></NuxtLink></li>
             <li class="nav-item"><NuxtLink class="" active-class="active" :to="localePath('/about')" v-text="$t('nav.about')"></NuxtLink></li>

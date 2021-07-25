@@ -5,26 +5,26 @@
       <scrollactive class="container flex justify-center items-center h-12" active-class="scrollactive" :modifyUrl="false" :offset="60" :duration="800" bezier-easing-value=".5,0,.35,1">
         <div class="overflow-y-auto whitespace-nowrap scroll-hidden uppercase font-medium text-sm leading-6 space-x-6">
         <a class="scrollactive-item" href="#scrollId">Scroll menu</a>
-        <a class="scrollactive-item" href="#">News</a>
-        <a class="scrollactive-item" href="#">Articles</a>
-        <a class="scrollactive-item" href="#">Videos</a>
-        <a class="scrollactive-item" href="#">Tricks</a>
-        <a class="scrollactive-item" href="#">PHP</a>
-        <a class="scrollactive-item" href="#">Laravel</a>
-        <a class="scrollactive-item" href="#">Vue</a>
-        <a class="scrollactive-item" href="#">React</a>
-        <a class="scrollactive-item" href="#">Tailwindcss</a>
-        <a class="scrollactive-item" href="#">Meraki UI</a>
-        <a class="scrollactive-item" href="#">CPP</a>
-        <a class="scrollactive-item" href="#">JavaScript</a>
-        <a class="scrollactive-item" href="#">Ruby</a>
-        <a class="scrollactive-item" href="#">Mysql</a>
-        <a class="scrollactive-item" href="#">Pest</a>
-        <a class="scrollactive-item" href="#">PHPUnit</a>
-        <a class="scrollactive-item" href="#">Netlify</a>
-        <a class="scrollactive-item" href="#">VS Code</a>
-        <a class="scrollactive-item" href="#">PHPStorm</a>
-        <a class="scrollactive-item" href="#">Sublime</a>
+        <a class="scrollactive-item" href="#scrollId">News</a>
+        <a class="scrollactive-item" href="#scrollId">Articles</a>
+        <a class="scrollactive-item" href="#scrollId">Videos</a>
+        <a class="scrollactive-item" href="#scrollId">Tricks</a>
+        <a class="scrollactive-item" href="#scrollId">PHP</a>
+        <a class="scrollactive-item" href="#scrollId">Laravel</a>
+        <a class="scrollactive-item" href="#scrollId">Vue</a>
+        <a class="scrollactive-item" href="#scrollId">React</a>
+        <a class="scrollactive-item" href="#scrollId">Tailwindcss</a>
+        <a class="scrollactive-item" href="#scrollId">Meraki UI</a>
+        <a class="scrollactive-item" href="#scrollId">CPP</a>
+        <a class="scrollactive-item" href="#scrollId">JavaScript</a>
+        <a class="scrollactive-item" href="#scrollId">Ruby</a>
+        <a class="scrollactive-item" href="#scrollId">Mysql</a>
+        <a class="scrollactive-item" href="#scrollId">Pest</a>
+        <a class="scrollactive-item" href="#scrollId">PHPUnit</a>
+        <a class="scrollactive-item" href="#scrollId">Netlify</a>
+        <a class="scrollactive-item" href="#scrollId">VS Code</a>
+        <a class="scrollactive-item" href="#scrollId">PHPStorm</a>
+        <a class="scrollactive-item" href="#scrollId">Sublime</a>
         </div>
       </scrollactive>
     </div>
