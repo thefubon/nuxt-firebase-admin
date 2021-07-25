@@ -13,12 +13,12 @@
       </template>
     </VueSlickCarousel>
     <div class="absolute left-6 inset-y-0 z-10 flex items-center">
-      <button class="relative -top-8" @click="showPrev">
+      <button class="relative -top-8 animate-right" @click="showPrev">
         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path></svg>
       </button>
     </div>
     <div class="absolute right-6 inset-y-0 z-10 flex items-center">
-      <button class="relative -top-8" @click="showNext">
+      <button class="relative -top-8 animate-left" @click="showNext">
         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
       </button>
     </div>
@@ -34,7 +34,7 @@
             id: 1,
             title: 'Title 1',
             description: 'Description 1',
-            img: require('/assets/img/slider/slider-1.jpg'),
+            img: require('/assets/img/slider/slider-4.jpg'),
             alt: 'Alt',
           },
           {
@@ -48,14 +48,14 @@
             id: 3,
             title: 'Title 3',
             description: 'Description 3',
-            img: require('/assets/img/slider/slider-3.jpg'),
+            img: require('/assets/img/slider/slider-1.jpg'),
             alt: 'Alt 3',
           },
           {
             id: 4,
             title: 'Title 4',
             description: 'Description 4',
-            img: require('/assets/img/slider/slider-4.jpg'),
+            img: require('/assets/img/slider/slider-3.jpg'),
             alt: 'Alt 4',
           },
           {
