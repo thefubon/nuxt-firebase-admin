@@ -4,6 +4,10 @@
       <scrollactive class="container flex justify-center items-center h-12 text-blue-green-1200 uppercase font-medium text-sm leading-6 space-x-14" active-class="scrollactive" :modifyUrl="false" :offset="45" :duration="800" bezier-easing-value=".5,0,.35,1">
         <a class="scrollactive-item" href="#scrollId">Scroll menu</a>
       </scrollactive>
+
+      <div class="animate-left">Fubon</div>
+      <div class="animate-right">Design</div>
+
     </div>
 
     <TheSlider />
