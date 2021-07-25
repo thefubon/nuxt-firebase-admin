@@ -1,7 +1,6 @@
 <template>
   <div class="header-container bg-gray-600 text-white h-14 mb-4 flex items-center">
     <header class="the-header container flex items-center">
-      <TheSideNavToggle class="mr-4" @toggle="$emit('sidenavToggle')" />
       <div class="logo flex-1">
         <a href="https://github.com/thefubon/nuxt" target="_blank">GinHub</a>
       </div>
@@ -21,12 +20,10 @@
 </template>
 
 <script>
-import TheSideNavToggle from '~/components/Navigation/TheSideNavToggle'
 import LanguageSwitch from '~/components/Navigation/LanguageSwitch'
 export default {
   name: "TheHeader",
   components: {
-    TheSideNavToggle,
     LanguageSwitch
   }
 }

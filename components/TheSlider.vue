@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative overflow-hidden">
     <VueSlickCarousel class="flex" v-bind="slickOptions" ref="carousel">
       <div class="relative" v-for="slide in slides" :key="slide.id">
         <img class="w-full h-full" :src="slide.img" :alt="slide.alt">
@@ -72,7 +72,7 @@
           arrows: false,
           infinite: true,
           autoplay: true,
-          autoplaySpeed: 10000,
+          autoplaySpeed: 7000,
           speed: 1000,
           slidesToShow: 1,
           slidesToScroll: 1
@@ -93,9 +93,9 @@
 <style>
   /* Dots */
   .slick-dots li {
-    @apply inline-block w-4 h-4 rounded-full bg-black bg-opacity-30 cursor-pointer relative -bottom-12;
+    @apply inline-block w-4 h-4 rounded-full bg-white bg-opacity-30 cursor-pointer relative bottom-28;
   }
   .slick-dots > li.slick-active {
-    @apply bg-black;
+    @apply bg-white;
   }
 </style>
