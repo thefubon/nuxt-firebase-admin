@@ -78,7 +78,7 @@ export default {
     dir: 'dist',
     exclude: [
       /^\/admin/, // path starts with /admin
-      /^\/users/, // path starts with /users
+      /^\/en\/admin/, // path starts with /en/admin
     ]
   },
 
