@@ -98,12 +98,13 @@ export default {
   },
 
   router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        path: '*',
-        component: resolve(__dirname, 'pages/index.vue')
-      })
-    },
+    // extendRoutes(routes, resolve) {
+    //   routes.push({
+    //     path: '*',
+    //     component: resolve(__dirname, 'pages/index.vue')
+    //   })
+    // },
+
     linkActiveClass: 'active',
   },
 

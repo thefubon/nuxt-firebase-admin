@@ -4,9 +4,9 @@
 
 .my-layouts-enter-active,
 .my-layouts-leave-active {
-  @apply transition delay-150 duration-300 ease-in-out opacity-100;
+  @apply transition delay-150 duration-300 ease-in-out opacity-100 transform translate-y-0;
 }
 .my-layouts-enter,
 .my-layouts-leave-active {
-  @apply transition delay-150 duration-300 ease-in-out opacity-0;
+  @apply transition delay-150 duration-300 ease-in-out opacity-0 transform translate-y-4;
 }
