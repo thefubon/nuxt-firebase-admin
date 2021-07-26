@@ -18,9 +18,9 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap' }
     ],
-    script: [
-      { src: '/js/nav.js', type: 'text/javascript', body: true, }
-    ],
+    // script: [
+    //   { src: '/js/nav.js', type: 'text/javascript', body: true, }
+    // ],
     bodyAttrs: {
       class: 'antialiased font-roboto bg-gray-100'
     }
@@ -95,6 +95,21 @@ export default {
     port: 3000, // default: 3000
     host: 'localhost', // default: localhost,
     timing: false
+  },
+
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path: '*',
+        component: resolve(__dirname, 'pages/index.vue')
+      })
+    },
+    linkActiveClass: 'active',
+  },
+
+  transition: {
+    name: 'my-layouts',
+    mode: 'out-in',
   },
 
   cli: {
