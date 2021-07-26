@@ -2,7 +2,7 @@ import { resolve } from 'path'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Nuxt 2',
+    title: 'NuxtJS - Start Project',
     htmlAttrs: {
       lang: 'en'
     },
@@ -22,7 +22,7 @@ export default {
       { src: '/js/nav.js', type: 'text/javascript', body: true, }
     ],
     bodyAttrs: {
-      class: 'antialiased font-roboto'
+      class: 'antialiased font-roboto bg-gray-100'
     }
   },
 
@@ -83,8 +83,7 @@ export default {
   },
 
   alias: {
-    'img': resolve(__dirname, './assets/img'),
-    'js': resolve(__dirname, './assets/js')
+    'img': resolve(__dirname, './assets/img')
   },
 
   loading: {

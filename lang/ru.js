@@ -1,5 +1,5 @@
 export default {
-  zone: 'RU',
+  zone: 'Русский',
 
   head: {
     title: 'Nuxt JS',
