@@ -1,6 +1,6 @@
 # Nuxt 2 + Tailwind CSS
 
-[DEMO PREVIEW](https://youtu.be/5-Kb_VbcG3Q)
+[DEMO PREVIEW](https://youtu.be/KD4M-5K5X34)
 
 ## Warning (Only Version)
   "node-sass": "^5.0.0",<br>
