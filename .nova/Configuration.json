@@ -1,3 +1,6 @@
 {
-  "tommasonegri.vue.serverRunning" : true
+  "tommasonegri.vue.serverRunning" : true,
+  "workspace.art_style" : 0,
+  "workspace.color" : 4,
+  "workspace.name" : "NuxtJS"
 }
