@@ -1,0 +1,12 @@
+{
+  "identifier" : "0F29773D-5246-499B-87D6-2322B700048A",
+  "ignoredFilePatterns" : [
+    ".htaccess",
+    ".htpasswd"
+  ],
+  "localPath" : "dist",
+  "remotePath" : "\/home\/u401042558\/domains\/fubon.ru\/public_html",
+  "remoteURL" : "https:\/\/fubon.ru",
+  "server" : "Hostinger",
+  "usesPublishing" : true
+}

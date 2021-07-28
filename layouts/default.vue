@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col flex-auto flex-shrink-0">
 
     <!-- Header -->
-    <header class="bg-white fixed w-full flex items-center justify-between h-14 z-20 px-6 shadow">
+    <header class="bg-white fixed w-full flex items-center justify-between h-14 z-30 px-6 shadow">
 
       <!-- Logo -->
       <div class="flex-1 text-xl font-bold flex space-x-2 items-center">
