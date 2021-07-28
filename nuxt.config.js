@@ -34,8 +34,9 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~plugins/core-components.js',
-    '~plugins/vue-slick-carousel.js',
+    '~plugins/date-filter.js',
     '~plugins/vue-scrollactive.js',
+    '~plugins/vue-slick-carousel.js',
     '~plugins/vue-stripe-menu.js'
     //'~plugins/vue-clickaway.js'
   ],

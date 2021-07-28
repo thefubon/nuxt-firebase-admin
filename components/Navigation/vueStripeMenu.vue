@@ -16,7 +16,6 @@
       <div class="wrap-content">
         <div class="wrap-content__block">
           Header: {{ item.title }}
-           Жопа
           <h1 v-text="item.dropdown"></h1>
         </div>
         <div class="wrap-content__item">
