@@ -36,7 +36,8 @@ export default {
     '~plugins/core-components.js',
     '~plugins/vue-slick-carousel.js',
     '~plugins/vue-scrollactive.js',
-    '~plugins/vue-clickaway.js'
+    '~plugins/vue-stripe-menu.js'
+    //'~plugins/vue-clickaway.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
