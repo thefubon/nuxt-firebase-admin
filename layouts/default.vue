@@ -55,7 +55,7 @@
 
         <!-- Copy -->
         <div class="text-xs py-2 text-gray-400 hidden md:flex justify-center">
-          &copy; 2021 Fubon Design
+          &copy; 2021&nbsp;<a href="https://fubon.de" target="_blank">Fubon Design</a>
         </div>
 
       </div>

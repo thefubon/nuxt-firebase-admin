@@ -33,9 +33,10 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~plugins/vue-slick-carousel.js', // https://github.com/gs-shop/vue-slick-carousel
-    '~plugins/vue-scrollactive.js', // https://github.com/eddiemf/vue-scrollactive
-    // '~plugins/vue-clickaway.js'
+    '~plugins/core-components.js',
+    '~plugins/vue-slick-carousel.js',
+    '~plugins/vue-scrollactive.js',
+    '~plugins/vue-clickaway.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
