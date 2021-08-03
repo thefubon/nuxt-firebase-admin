@@ -19,7 +19,7 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap' }
     ],
     script: [
-      { src: '/js/nav.js', type: 'text/javascript', body: true, }
+      { src: '/js/nav.js', type: 'text/javascript', body: true, async: true, defer: true}
     ],
     bodyAttrs: {
       class: 'antialiased font-roboto bg-gray-100'
@@ -52,8 +52,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/axios',
   ],
+
+  axios: {
+    baseUrl: process.env.BASE_URL || "https://nuxt-31297-default-rtdb.firebaseio.com",
+  },
 
   i18n: {
     locales: [
@@ -98,6 +103,11 @@ export default {
     port: 3000, // default: 3000
     host: 'localhost', // default: localhost,
     timing: false
+  },
+
+  env: {
+    baseUrl: process.env.BASE_URL || "https://nuxt-31297-default-rtdb.firebaseio.com",
+    fbAPIKey: 'AIzaSyA6_EcqxkRDoOijDBMVrfz81eoZerYCz_8'
   },
 
   router: {

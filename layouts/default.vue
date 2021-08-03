@@ -80,6 +80,7 @@
 <script>
 import { mixin as clickaway } from 'vue-clickaway'
 export default {
+  // middleware: 'log', // middleware/log.js
   layout: 'admin',
   mixins: [ clickaway ],
   data () {
