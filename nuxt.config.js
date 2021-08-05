@@ -16,10 +16,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap' },
     ],
     script: [
-      { src: '/js/nav.js', type: 'text/javascript', body: true, async: true, defer: true}
+      { src: '/js/nav.js', type: 'text/javascript', body: true, async: true, defer: true }
     ],
     bodyAttrs: {
       class: 'antialiased font-roboto bg-gray-100'
@@ -47,8 +47,9 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss'
   ],
+
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
